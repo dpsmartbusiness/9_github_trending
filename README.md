@@ -2,7 +2,7 @@
 
 Programm searches top 20 trending Github repositories and shows in console thier names, amount of stars, amount of opened issues and link.
 
-#How to install
+# How to install
 
 Python 3 should be already installed. Then use pip (or pip3 if there is a conflict with old Python 2 setup) to install dependencies:
 
@@ -12,7 +12,7 @@ pip install -r requirements.txt # alternatively try pip3
 
 ```
 
-#Quickstart
+# Quickstart
 
 Example of script launch on Windows, Python 3.5:
 
