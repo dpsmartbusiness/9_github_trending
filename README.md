@@ -1,6 +1,6 @@
 # Github Trends
 
-Programm searches top 20 trending Github repositories and shows in console thier names, amount of stars, amount of opened issues and link.
+Programm searches top 20 trending Github repositories for the last week and shows in console thier names, amount of stars, amount of opened issues and link.
 
 # How to install
 
