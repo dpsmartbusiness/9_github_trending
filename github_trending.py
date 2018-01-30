@@ -37,7 +37,7 @@ def show_top_repo_info(top_number, repo_name, repo_issues, repo_url, repo_stars)
 
 if __name__ == '__main__':
     print('Top 20 of Github repositories by stars for the last week:\n')
-    top_size = 2
+    top_size = 20
     top_github_repos = get_trending_repositories(top_size)
     for top_number, repo in list(enumerate(top_github_repos, start=1)):
         repo_name = repo['name']
@@ -53,5 +53,5 @@ if __name__ == '__main__':
             repo_name,
             repo_issues,
             repo_url,
-            repo_stars,
+            repo_stars
         )
